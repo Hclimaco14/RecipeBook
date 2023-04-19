@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "998AD50C-369C-4EF7-95F6-689AE9296092"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C4EF730-1C62-4B7A-B2C6-027EC9408007"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RecipeBook/Components/Cells/RecipeCell/RecipeCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "RecipeCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4C4EF730-1C62-4B7A-B2C6-027EC9408007 - a0856415aaad1067"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for identifier"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hectorclimaco/GitHub/RecipeBook/RecipeBook/Components/Cells/RecipeCell/RecipeCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "4C4EF730-1C62-4B7A-B2C6-027EC9408007 - 489659d954c17def"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RecipeBook.RecipeCell.identifier.unsafeMutableAddressor : Swift.String"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hectorclimaco/GitHub/RecipeBook/RecipeBook/Components/Cells/RecipeCell/RecipeCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "4C4EF730-1C62-4B7A-B2C6-027EC9408007 - b652007879fe70e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static RecipeBook.RecipeCell.identifier.getter : Swift.String"
+                  moduleName = "RecipeBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hectorclimaco/GitHub/RecipeBook/RecipeBook/Components/Cells/RecipeCell/RecipeCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

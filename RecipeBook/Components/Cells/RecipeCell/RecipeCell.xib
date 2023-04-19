@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecipeCell" customModule="RecipeBook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kZW-2h-g0W">
+                        <rect key="frame" x="0.0" y="1.6666666666666572" width="150" height="147"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="kZW-2h-g0W" secondAttribute="height" id="aLt-bZ-Tjg"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fJV-7j-ZeU">
+                        <rect key="frame" x="8" y="158" width="134" height="84"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V94-HS-uWe">
+                                <rect key="frame" x="0.0" y="0.0" width="134" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y13-Cz-gjU">
+                                <rect key="frame" x="0.0" y="43" width="134" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="V94-HS-uWe" firstAttribute="leading" secondItem="fJV-7j-ZeU" secondAttribute="leading" id="Fsn-tN-Sit"/>
+                            <constraint firstItem="Y13-Cz-gjU" firstAttribute="leading" secondItem="fJV-7j-ZeU" secondAttribute="leading" id="V1k-Kg-VeT"/>
+                            <constraint firstAttribute="trailing" secondItem="Y13-Cz-gjU" secondAttribute="trailing" id="h6f-ex-LqF"/>
+                            <constraint firstAttribute="trailing" secondItem="V94-HS-uWe" secondAttribute="trailing" id="hYn-xl-8h8"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="kZW-2h-g0W" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A1s-qG-eYn"/>
+                <constraint firstAttribute="bottom" secondItem="fJV-7j-ZeU" secondAttribute="bottom" constant="8" id="CYS-7f-2Xy"/>
+                <constraint firstAttribute="trailing" secondItem="fJV-7j-ZeU" secondAttribute="trailing" constant="8" id="PP1-qF-0PA"/>
+                <constraint firstAttribute="trailing" secondItem="kZW-2h-g0W" secondAttribute="trailing" id="Yt4-Ev-sek"/>
+                <constraint firstItem="kZW-2h-g0W" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="bOq-8l-Gc2"/>
+                <constraint firstItem="fJV-7j-ZeU" firstAttribute="top" secondItem="kZW-2h-g0W" secondAttribute="bottom" constant="8" id="dEr-Co-9Qv"/>
+                <constraint firstItem="fJV-7j-ZeU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="lxk-74-99V"/>
+            </constraints>
+            <size key="customSize" width="151" height="199"/>
+            <connections>
+                <outlet property="descriptionFoodLbl" destination="Y13-Cz-gjU" id="ae4-O2-A0d"/>
+                <outlet property="foodImg" destination="kZW-2h-g0W" id="8FJ-Tv-vpD"/>
+                <outlet property="titleFoodLbl" destination="V94-HS-uWe" id="uCK-4z-6UV"/>
+            </connections>
+            <point key="canvasLocation" x="193.12977099236642" y="72.183098591549296"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="photo" catalog="system" width="128" height="93"/>
+    </resources>
+</document>
