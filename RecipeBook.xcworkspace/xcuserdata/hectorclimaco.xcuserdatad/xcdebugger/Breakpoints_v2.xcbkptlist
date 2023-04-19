@@ -7,70 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "12B3D790-8515-4903-98BF-81B9AAAF01F2"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeBookTests/RecipeBookTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "testGetSession()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "12B3D790-8515-4903-98BF-81B9AAAF01F2 - 3e827955d411e4be"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RecipeBookTests.RecipeBookTests.testGetSession() -&gt; ()"
-                  moduleName = "RecipeBookTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hectorclimaco/GitHub/RecipeBook/RecipeBookTests/RecipeBookTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "144">
-               </Location>
-               <Location
-                  uuid = "12B3D790-8515-4903-98BF-81B9AAAF01F2 - 346bc22a84cc5b4c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;RecipeBook.RecipeHome.Response, RecipeBook.RequestError&gt;) -&gt; () in RecipeBookTests.RecipeBookTests.testGetSession() -&gt; ()"
-                  moduleName = "RecipeBookTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hectorclimaco/GitHub/RecipeBook/RecipeBookTests/RecipeBookTests.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
-                  offsetFromSymbolStart = "128">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CA23D9E8-D217-4C37-877B-16E8EA3C0388"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RecipeBookTests/RecipeBookTests.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "testGetSession()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "A0B658F3-27DA-488A-97EE-6542A9092886"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -78,8 +14,8 @@
             filePath = "RecipeBook/Modules/Map/MapViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
             landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "7">
             <Locations>

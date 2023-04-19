@@ -22,6 +22,7 @@ class MapViewController: UIViewController {
     // MARK: - Variables
     var locationManager = CLLocationManager()
     var currentLocation = CLLocationCoordinate2D()
+    var titleScreen: String = "LOCATION"
     var interactor: MapBusinessLogic?
     var router: MapRoutingLogic?
     var recipe = RecipeResponse(){
@@ -47,6 +48,7 @@ class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = titleScreen
     }
     
     override func viewWillAppear(_ animated: Bool) {
